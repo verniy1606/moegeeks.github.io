@@ -1,4 +1,4 @@
-fetch("https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js")
+fetch("https://code.jquery.com/jquery-3.7.1.min.js")
     .then(r => { return r.text() })
     .then(t => eval(t))
     .then(() => {
