@@ -109,14 +109,15 @@ header {
 }
 
 .main {
-    /* position: fixed; */
-    max-width: 1000px;
-    
+    /* change 2024/05/25 */
+    /* 右側に若干余白が残る */
+    margin: 5px;
+    margin-left: 5%;
     height: 100%;
     
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 
 .text {
