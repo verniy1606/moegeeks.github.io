@@ -112,12 +112,24 @@ header {
     /* change 2024/05/25 */
     /* 右側に若干余白が残る */
     margin: 5px;
-    margin-left: 5%;
+    margin-left: 20%;
     height: 100%;
     
     /* display: flex; */
     justify-content: center;
     width: 80%;
+}
+
+/* for smartphones */
+@media screen and (max-width: 480px) {
+    .main {
+        margin: 10px;
+        height: 100%;
+        
+        /* display: flex; */
+        justify-content:left;
+        width: 100%;
+    }
 }
 
 .text {
